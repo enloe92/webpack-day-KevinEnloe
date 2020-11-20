@@ -1,0 +1,20 @@
+{
+  "name": "shopping-list-webpack-day",
+  "version": "1.0.0",
+  "description": "Please reference the startup instructions within your curriculum.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enloe92/webpack-day-KevinEnloe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enloe92/webpack-day-KevinEnloe/issues"
+  },
+  "homepage": "https://github.com/enloe92/webpack-day-KevinEnloe#readme"
+}
