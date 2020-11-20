@@ -4,7 +4,8 @@
   "description": "Please reference the startup instructions within your curriculum.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,19 @@
   "bugs": {
     "url": "https://github.com/enloe92/webpack-day-KevinEnloe/issues"
   },
-  "homepage": "https://github.com/enloe92/webpack-day-KevinEnloe#readme"
+  "homepage": "https://github.com/enloe92/webpack-day-KevinEnloe#readme",
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
